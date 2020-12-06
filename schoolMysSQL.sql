@@ -1,10 +1,3 @@
-drop table Teach;
-drop table Take;
-drop table Teacher;
-drop table Course;
-drop table Student;
-drop table Department;
-
 create table Department
  (did integer(5) not null,
  dname varchar(30) not null,
